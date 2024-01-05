@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@500;700&display=swap');
+
+:root {
+  --cor-fundo-header: linear-gradient(90deg, #05EDE3 0%, #645FFB 100%);
+  --cor-fundo-primario: #fff;
+  --cor-fundo-secundario: #E4F2FD;
+  --cor-fundo-terciario: #FAFAFA;
+  --cor-texto-primario: #2F2F2F;
+  --cor-texto-secundario: #fff;
+  --cor-texto-valor-gasto: #FA8C10;
+  --cor-texto-valor-recebido: #7B61FF;
+  --cor-fundo-botao-primario: #7978D9;
+  --cor-fundo-botao-secundario: #3A9FF1;
+  --cor-fundo-botao-terciario: #FF576B;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}

@@ -1,0 +1,120 @@
+.itemDaLista {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    width: 964px;
+    height: 58px;
+
+    border-bottom: 1px #E0E0E0 solid;
+}
+
+.itemDaLista>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+
+    margin-left: 30px;
+}
+
+.itemDaLista div:nth-child(3) {
+    width: 175px;
+    height: 40px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.itemDaLista div:nth-child(3)::-webkit-scrollbar {
+    height: 5px;
+}
+
+.itemDaLista div:nth-child(3)::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.itemDaLista div:nth-child(3)::-webkit-scrollbar-thumb {
+    background-color: var(--cor-fundo-botao-secundario);
+    border-radius: 5px;
+}
+
+.itemDaLista div:nth-child(3)::-webkit-scrollbar-thumb:hover {
+    background-color: var(--cor-texto-valor-recebido);
+}
+
+.itemDaLista div:first-child {
+    margin-left: 5px;
+    margin-right: -20px;
+}
+
+.itemDaLista div:last-child {
+    gap: 13px
+}
+
+.valorsaida {
+    color: var(--cor-texto-valor-gasto);
+}
+
+.valorentrada {
+    color: var(--cor-texto-valor-recebido);
+}
+
+.itemDaLista button {
+    background-color: transparent;
+}
+
+.containerModal {
+    position: relative;
+    bottom: 13px;
+    left: 820px;
+}
+
+.modalExcluir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    width: 111px;
+    height: 46px;
+
+    border-radius: 4px;
+    background-color: var(--cor-fundo-secundario);
+}
+
+.modalExcluir p {
+    font-size: 10px;
+}
+
+.modalExcluir button {
+    width: 37px;
+    height: 15px;
+
+    margin: 3px;
+
+    border-radius: 4px;
+    border: none;
+}
+
+.modalExcluir button:first-child {
+    background-color: var(--cor-fundo-botao-secundario);
+}
+
+.modalExcluir button:last-child {
+    background-color: var(--cor-fundo-botao-terciario);
+}
+
+.modalExcluir button p {
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.seta {
+    position: relative;
+    bottom: 10px;
+    left: 40px;
+}

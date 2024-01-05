@@ -1,0 +1,122 @@
+ .pageSignUp {
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   width: 100vw;
+   height: 100vh;
+
+   font-family: Rubik;
+ }
+
+ .pageSignUp header {
+   display: flex;
+
+   height: 5vh;
+   padding: 41px;
+
+   position: absolute;
+   align-items: center;
+
+   top: 0;
+   left: 0;
+ }
+
+ .pageSignUp header h2 {
+  margin-left: 8px;
+
+  font-size: 36px;
+  font-weight: 700;
+
+  color: white;
+ }
+
+ .pageSignUp .logo {
+   height: 45px;
+   width: 45px;
+
+   margin-left: 60px;
+ }
+
+ .pageSignUp .body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+ }
+
+ .pageSignUp .form-principal {
+   display: flex;
+   flex-direction: column;
+
+   align-items: center;
+   justify-content: space-between;
+
+   width: 25vw;
+   height: 100%;
+
+   border-radius: 2px;
+   background-color: var(--cor-fundo-primario);
+ }
+
+ .pageSignUp .loginParagrafo {
+   font-size: 28px;
+   font-weight: 500;
+   margin-top: 5vh;
+
+   color: var(--cor-fundo-botao-primario);
+ }
+
+ .pageSignUp .form-principal input {
+   width: 23vw;
+   height: 5vh;
+ }
+
+ .pageSignUp label {
+   align-self: flex-start;
+   margin-left: 1vw;
+
+   font-size: 18px;
+   font-family: Rubik;
+   
+   color: #484848;
+ }
+
+ .pageSignUp .erro {
+   color: var(--cor-fundo-botao-terciario);
+ }
+
+ .pageSignUp .form-principal button {
+   margin-bottom: 3vh;
+   margin-top: 3vh;
+
+   width: 23vw;
+   height: 5vh;
+
+   border-radius: 5px;
+   text-align: center;
+
+   font-size: 14px;
+   font-family: Rubik;
+   font-weight: 700;
+
+   background: #7978d9;
+   color: #fff;
+ }
+
+ .pageSignUp .form-principal .paragrafo {
+   margin-bottom: 5vh;
+
+   font-size: 14px;
+   font-family: Lato;
+   font-weight: 700;
+   
+   color: #7b61ff;
+ }
+
+ .pageSignUp Link {
+   text-decoration: none;
+ }

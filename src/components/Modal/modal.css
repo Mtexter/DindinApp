@@ -1,0 +1,155 @@
+.caixa {
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 2;
+  
+  top: 0;
+  background-color: rgba(128, 128, 128, 0.616);
+}
+
+.form_modal {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  width: 600px;
+  height: 90%;
+
+  border-radius: 20px;
+  padding: 4%;
+
+  background-color: white;
+}
+
+.titulo_fechar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 8%;
+}
+
+.titulo_modal {
+  font-size: 32px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+}
+
+.botao_fechar {
+  width: 5%;
+  height: 50%;
+  cursor: pointer;
+}
+
+.container_botoes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 8%;
+  margin-top: 3%;
+}
+
+.entrada,
+.saida {
+  width: 50%;
+  font-size: 100%;
+
+  border-radius: 10px;
+
+  text-align: center;
+  font-size: 100%;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  background-color: #b9b9b9;
+  color: #fff;
+}
+
+.saida_clicado {
+  background-color: var(--cor-fundo-botao-terciario);
+}
+
+.entrada_clicado {
+  background-color: #3a9ff1;
+}
+
+.entrada:hover,
+.saida:hover {
+  cursor: pointer;
+  opacity: 80%;
+  color: #484848;
+}
+
+.form_modal label {
+  font-size: 24px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0px;
+  color: #484848c4;
+}
+
+.input_valor {
+  height: 8%;
+
+  color: #484848;
+}
+
+.input_valor::-webkit-inner-spin-button,
+.input_valor::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.categoria {
+  color: #484848;
+}
+
+.selecionar {
+  color: #484848;
+  height: 8%;
+}
+
+.data_label {
+  color: #484848;
+}
+
+.data_input {
+  color: #484848;
+  height: 8%;
+}
+
+.label_descricao {
+  color: #484848;
+}
+
+.texto_descricao {
+  color: #484848;
+}
+
+.confirmar_botao {
+  height: 6%;
+  width: 50%;
+  align-self: center;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  background-color: #7978D9;
+}
